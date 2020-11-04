@@ -18,6 +18,7 @@ To check if Git is already installed type the following in your terminal:
 
 
 Installation:
+*************
 
 * Linux/Unix: `<https://git-scm.com/download/linux>`_
 
@@ -27,7 +28,8 @@ Installation:
 
 
 
-* Update your git configuration:
+Update your git configuration
+******************************
 
   Set global name and email:
 
@@ -37,7 +39,8 @@ Installation:
   	git config --global user.email@example.com
 
 
-See your configuration:
+See your configuration
+**********************
 
 git config --list
 
