@@ -58,21 +58,25 @@ Task
 
 **Solution:**
 
-	* .. code:: bash
+	* Checkout the features/write_attendees branch
+	 .. code:: bash
 
 		git checkout features/write_attendees
 
 	* Add "Your Name" to "List_of_attendees.txt"
 
-	* .. code:: bash
+	* Stage your changes
+	.. code:: bash
 
 		git add List_of_attendees.txt
 
-	* .. code:: bash
+	* Commit your changes
+	.. code:: bash
 
 		git commit -m 'Add "Your Name" to the list of attendees'
 
-	* .. code:: bash
+	* Push your changes
+	.. code:: bash
 		git push
 
 
@@ -80,21 +84,26 @@ Task
 
 **Solution:**
 
-	* .. code:: bash
+	* Create the new branch features/Your_Name_attendees
+	.. code:: bash
 
 		git checkout -b features/Your_Name_attendees
 
 	* Create a directory named like you and add "Introduction_Your_Name.txt" which contains a brief introduction of your person
 
-	* .. code:: bash
+	
+	* Stage your changes
+	 .. code:: bash
 
 		git add Introduction_Your_Name.txt
 
-	* .. code:: bash
+	* Commit your change 
+	.. code:: bash
 
 		git commit -m 'Add short introduction of "Your Name" to Attendees repository'
 
-	* .. code:: bash
+	* Push your changes 
+	.. code:: bash
 
 		git push --set-upstream origin features/Your_Name_attendees
 
