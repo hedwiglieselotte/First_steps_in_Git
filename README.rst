@@ -59,12 +59,19 @@ Task
 **Solution:**
 
 	* .. code:: bash
+
 		git checkout features/write_attendees
+
 	* Add "Your Name" to "List_of_attendees.txt"
+
 	* .. code:: bash
+
 		git add List_of_attendees.txt
+
 	* .. code:: bash
+
 		git commit -m 'Add "Your Name" to the list of attendees'
+
 	* .. code:: bash
 		git push
 
@@ -74,14 +81,23 @@ Task
 **Solution:**
 
 	* .. code:: bash
+
 		git checkout -b features/Your_Name_attendees
+
 	* Create a directory named like you and add "Introduction_Your_Name.txt" which contains a brief introduction of your person
+
 	* .. code:: bash
+
 		git add Introduction_Your_Name.txt
+
 	* .. code:: bash
+
 		git commit -m 'Add short introduction of "Your Name" to Attendees repository'
+
 	* .. code:: bash
+
 		git push --set-upstream origin features/Your_Name_attendees
+
 	* Create a PR at github 
 
 
