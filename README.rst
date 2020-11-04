@@ -13,6 +13,7 @@ Getting started
 To check if Git is already installed type the following in your terminal:
 
 .. code:: bash
+
     git --version
 
 
@@ -31,18 +32,21 @@ Installation:
 Update your git configuration
 ******************************
 
-  Set global name and email:
+Set global name and email:
 
-  .. code:: bash
-  	git config --global user.name "Your Name"
+.. code:: bash
 
-  	git config --global user.email@example.com
+    git config --global user.name "Your Name"
+
+    git config --global user.email@example.com
 
 
 See your configuration
 **********************
 
-git config --list
+.. code:: bash
+
+    git config --list
 
 
 License
