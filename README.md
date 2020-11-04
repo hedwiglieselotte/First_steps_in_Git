@@ -16,18 +16,25 @@ git --version
 
 
 Installation:
+
 Linux/Unix: https://git-scm.com/download/linux
+
 Windows: https://git-scm.com/download/win
+
 Mac OS X: https://git-scm.com/download/mac
 
 
 Update your git configuration:
 
 Set global name and email:
-git config --global user.name "Your Name" 
+
+git config --global user.name "Your Name"
+ 
 git config --global user.email@example.com
 
+
 See your configuration:
+
 git config --list
 
 
