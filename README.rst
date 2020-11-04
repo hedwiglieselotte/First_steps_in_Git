@@ -12,23 +12,41 @@ Getting started
 
 To check if Git is already installed type the following in your terminal:
 
-git --version
+.. code:: bash
+
+    git --version
+
 
 
 Installation:
-Linux/Unix: https://git-scm.com/download/linux
-Windows: https://git-scm.com/download/win
-Mac OS X: https://git-scm.com/download/mac
+*************
+
+* Linux/Unix: `<https://git-scm.com/download/linux>`_
+
+* Windows: `<https://git-scm.com/download/win>`_
+
+* Mac OS X: `<https://git-scm.com/download/mac>`_
 
 
-Update your git configuration:
+
+Update your git configuration
+******************************
 
 Set global name and email:
-git config --global user.name "Your Name" 
-git config --global user.email@example.com
 
-See your configuration:
-git config --list
+.. code:: bash
+
+    git config --global user.name "Your Name"
+
+    git config --global user.email@example.com
+
+
+See your configuration
+**********************
+
+.. code:: bash
+
+    git config --list
 
 
 License
