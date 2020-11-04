@@ -2,7 +2,7 @@
 First_steps_in_Git
 ~~~~~~~~~~~~~~~~~~
 
-This is a repository to practise the git workflow for git beginners
+This is a repository for git beginners to practise the git workflow
 
 .. contents::
 
